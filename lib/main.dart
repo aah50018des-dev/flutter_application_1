@@ -67,11 +67,9 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-
               Container(
                 margin: const EdgeInsets.all(10),
                 padding: const EdgeInsets.all(10),
-
                 decoration: const BoxDecoration(
                     color: Color.fromARGB(255, 19, 201, 170),
                     borderRadius: BorderRadius.all(Radius.circular(10))),
