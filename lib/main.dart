@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -104,6 +102,7 @@ class MyApp extends StatelessWidget {
                 // margin: EdgeInsets.all(31),
                 // padding: EdgeInsets.all(11),
               ),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -157,6 +156,29 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                   ),
+
+                  Container(
+                    padding: const EdgeInsets.all(10),
+                    width: 160,
+                    height: 190,
+                    color: Colors.amber,
+                    child: ListView(
+                      children: const [
+                        Text(
+                          'Work Expriene',
+                          style: TextStyle(fontSize: 19, color: Colors.white),
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          'Logistics Management Course - Body Language - Problem-Solving Skills - Team Building - Corporate Leadership - Creative Thinking - Analysis, Development, Planning and Organizational Change - Corporate Management - Meeting Management - Making Critical Decisions',
+                          style: TextStyle(fontSize: 10),
+                        )
+                      ],
+                    ),
+                  ),
+
                   Container(
                     padding: const EdgeInsets.all(10),
                     width: 160,
@@ -199,7 +221,7 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                     ),
-                  )
+                  ),
                 ],
               )
 
